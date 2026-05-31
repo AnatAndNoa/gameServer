@@ -31,6 +31,20 @@ namespace hw1_Anat_Noa.Controllers
             return "value";
         }
 
+        [HttpGet("tags")]
+        public List<string> GetAllTags()
+        {
+            Game game = new Game();
+            return game.GetAllTags();
+        }
+
+        [HttpGet("getByTags")]
+        public List<Game> GetByTags(string tags)
+        {
+            Game game = new Game();
+            return game.GetByTags(tags);
+        }
+
         // POST api/<GamesController>
         [HttpPost]
         public int Post([FromBody] Game game)

@@ -146,53 +146,6 @@ namespace hw1_Anat_Noa.Models
         }
 
 
-        //--------------------------------------------------------------------------------------------------
-        // This method deletes a Flight from the flights table 
-        // the model CCEC - Connect, Create Command, Execute, Close
-        //--------------------------------------------------------------------------------------------------
-        public int DeleteFlight(int id)
-        {
-
-            SqlConnection con;
-            SqlCommand cmd;
-
-            try
-            {
-                con = connect("myProjDB"); // create the connection
-            }
-            catch (Exception ex)
-            {
-                // write to log
-                throw (ex);
-            }
-
-            Dictionary<string, object> paramDic = new Dictionary<string, object>();
-            paramDic.Add("@Id", id);
-
-
-            cmd = CreateCommandWithStoredProcedureGeneral("SP_DeleteFlight", con, paramDic);          // create the command
-
-            try
-            {
-                int numEffected = cmd.ExecuteNonQuery(); // execute the command
-                return numEffected;
-            }
-            catch (Exception ex)
-            {
-                // write to log
-                throw (ex);
-            }
-
-            finally
-            {
-                if (con != null)
-                {
-                    // close the db connection
-                    con.Close();
-                }
-            }
-
-        }
 
         //insertUser
         public int InsertUser(User user)
@@ -727,6 +680,126 @@ namespace hw1_Anat_Noa.Models
                 }
             }
         }
+
+        //read all tags
+        public List<string> GetAllTags()
+        {
+            SqlConnection con = connect("myProjDB");
+            SqlCommand cmd = CreateCommandWithStoredProcedureGeneral("SP_GET_ALL_TAGS", con, null);
+
+            List<string> tags = new List<string>();
+            SqlDataReader dataReader = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+
+            try
+            {
+                while (dataReader.Read())
+                {
+                    tags.Add(dataReader["tagName"].ToString());
+                }
+
+                return tags;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
+        //find a game by tags
+        public List<Game> GetGamesByTags(string tags)
+        {
+            SqlConnection con = connect("myProjDB");
+
+            Dictionary<string, object> paramDic = new Dictionary<string, object>();
+            paramDic.Add("@tags", tags);
+
+            SqlCommand cmd = CreateCommandWithStoredProcedureGeneral("SP_GET_GAMES_BY_TAGS", con, paramDic);
+            SqlDataReader dataReader = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+
+            List<Game> games = new List<Game>();
+
+            try
+            {
+                while (dataReader.Read())
+                {
+                    Game g = new Game();
+
+                    g.Id = Convert.ToInt32(dataReader["Id"]);
+                    g.Name = dataReader["Name"].ToString();
+                    g.SteamUrl = dataReader["SteamUrl"].ToString();
+                    g.Image = dataReader["Image"].ToString();
+                    g.ReleaseDate = dataReader["ReleaseDate"].ToString();
+                    g.ReviewSummary = dataReader["ReviewSummary"].ToString();
+                    g.Price = Convert.ToInt32(dataReader["Price"]);
+                    g.Windows = Convert.ToBoolean(dataReader["Windows"]);
+                    g.Mac = Convert.ToBoolean(dataReader["Mac"]);
+                    g.Linux = Convert.ToBoolean(dataReader["Linux"]);
+
+                    games.Add(g);
+                }
+
+                return games;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
+
+        //RECOMENDATIONS BY TAGS
+        public List<Game> GetRecommendedGames(int userId)
+        {
+            SqlConnection con = connect("myProjDB");
+
+            Dictionary<string, object> paramDic = new Dictionary<string, object>();
+            paramDic.Add("@userId", userId);
+
+            SqlCommand cmd = CreateCommandWithStoredProcedureGeneral("SP_GET_RECOMMENDED_GAMES", con, paramDic);
+            SqlDataReader dataReader = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+
+            List<Game> games = new List<Game>();
+
+            try
+            {
+                while (dataReader.Read())
+                {
+                    Game g = new Game();
+
+                    g.Id = Convert.ToInt32(dataReader["Id"]);
+                    g.Name = dataReader["Name"].ToString();
+                    g.SteamUrl = dataReader["SteamUrl"].ToString();
+                    g.Image = dataReader["Image"].ToString();
+                    g.ReleaseDate = dataReader["ReleaseDate"].ToString();
+                    g.ReviewSummary = dataReader["ReviewSummary"].ToString();
+                    g.Price = Convert.ToInt32(dataReader["Price"]);
+                    g.Windows = Convert.ToBoolean(dataReader["Windows"]);
+                    g.Mac = Convert.ToBoolean(dataReader["Mac"]);
+                    g.Linux = Convert.ToBoolean(dataReader["Linux"]);
+
+                    if (dataReader["Tags"] != DBNull.Value && dataReader["Tags"].ToString() != "")
+                    {
+                        g.Tags = dataReader["Tags"].ToString().Split(',').ToList();
+                    }
+                    else
+                    {
+                        g.Tags = new List<string>();
+                    }
+
+                    games.Add(g);
+                }
+
+                return games;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
+
+
+
 
 
 

@@ -118,5 +118,11 @@ namespace hw1_Anat_Noa.Models
 
             return ans > 0;
         }
+
+        public List<Game> GetRecommendedGames(int userId)
+        {
+            DBservices db = new DBservices();
+            return db.GetRecommendedGames(userId);
+        }
     }
 }

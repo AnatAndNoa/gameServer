@@ -33,6 +33,13 @@ namespace hw1_Anat_Noa.Controllers
             return user.GetMyGames();
         }
 
+        [HttpGet("{userId}/recommendedGames")]
+        public List<Game> GetRecommendedGames(int userId)
+        {
+            User user = new User();
+            return user.GetRecommendedGames(userId);
+        }
+
         // POST api/<UsersController>
         [HttpPost]
         public int Post([FromBody] User user)

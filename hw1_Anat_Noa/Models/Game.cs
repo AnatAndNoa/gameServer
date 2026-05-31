@@ -83,5 +83,17 @@ namespace hw1_Anat_Noa.Models
             int ans = db.DeleteGame(id);
             return ans > 0;
         }
+
+        public List<string> GetAllTags()
+        {
+            DBservices db = new DBservices();
+            return db.GetAllTags();
+        }
+
+        public List<Game> GetByTags(string tags)
+        {
+            DBservices db = new DBservices();
+            return db.GetGamesByTags(tags);
+        }
     }
 }

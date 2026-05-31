@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("hw1_Anat_Noa")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1d1f3bb22ff8d6720ad5ed3006cf649f5cc3257")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5a6f3d2ab0d3091b5be15bb2e418c90b58ca88d")]
 [assembly: System.Reflection.AssemblyProductAttribute("hw1_Anat_Noa")]
 [assembly: System.Reflection.AssemblyTitleAttribute("hw1_Anat_Noa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
