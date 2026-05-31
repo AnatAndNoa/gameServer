@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\anatg\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\GameSteamer\\SERVER HW_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9013142F-04DD-49AA-AF0A-40F89669336A}|hw1_Anat_Noa\\hw1_Anat_Noa.csproj|c:\\users\\anatg\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\gamesteamer\\server hw_2\\hw1_anat_noa\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9013142F-04DD-49AA-AF0A-40F89669336A}|hw1_Anat_Noa\\hw1_Anat_Noa.csproj|solutionrelative:hw1_anat_noa\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9013142F-04DD-49AA-AF0A-40F89669336A}|hw1_Anat_Noa\\hw1_Anat_Noa.csproj|c:\\users\\anatg\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\gamesteamer\\server hw_2\\hw1_anat_noa\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9013142F-04DD-49AA-AF0A-40F89669336A}|hw1_Anat_Noa\\hw1_Anat_Noa.csproj|solutionrelative:hw1_anat_noa\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9013142F-04DD-49AA-AF0A-40F89669336A}|hw1_Anat_Noa\\hw1_Anat_Noa.csproj|c:\\users\\anatg\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\gamesteamer\\server hw_2\\hw1_anat_noa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9013142F-04DD-49AA-AF0A-40F89669336A}|hw1_Anat_Noa\\hw1_Anat_Noa.csproj|solutionrelative:hw1_anat_noa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9013142F-04DD-49AA-AF0A-40F89669336A}|hw1_Anat_Noa\\hw1_Anat_Noa.csproj|c:\\users\\anatg\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\gamesteamer\\server hw_2\\hw1_anat_noa\\dal\\dbservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,8 +27,8 @@
       "RelativeMoniker": "D:0:0:{9013142F-04DD-49AA-AF0A-40F89669336A}|hw1_Anat_Noa\\hw1_Anat_Noa.csproj|solutionrelative:hw1_anat_noa\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9013142F-04DD-49AA-AF0A-40F89669336A}|hw1_Anat_Noa\\hw1_Anat_Noa.csproj|c:\\users\\anatg\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\gamesteamer\\server hw_2\\hw1_anat_noa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9013142F-04DD-49AA-AF0A-40F89669336A}|hw1_Anat_Noa\\hw1_Anat_Noa.csproj|solutionrelative:hw1_anat_noa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9013142F-04DD-49AA-AF0A-40F89669336A}|hw1_Anat_Noa\\hw1_Anat_Noa.csproj|c:\\users\\anatg\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\gamesteamer\\server hw_2\\hw1_anat_noa\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9013142F-04DD-49AA-AF0A-40F89669336A}|hw1_Anat_Noa\\hw1_Anat_Noa.csproj|solutionrelative:hw1_anat_noa\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,19 +38,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\anatg\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\GameSteamer\\SERVER HW_2\\hw1_Anat_Noa\\appsettings.json",
               "RelativeDocumentMoniker": "hw1_Anat_Noa\\appsettings.json",
               "ToolTip": "C:\\Users\\anatg\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\GameSteamer\\SERVER HW_2\\hw1_Anat_Noa\\appsettings.json",
               "RelativeToolTip": "hw1_Anat_Noa\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-27T22:23:47.87Z"
+              "WhenOpened": "2026-05-27T22:23:47.87Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -60,9 +61,10 @@
               "RelativeDocumentMoniker": "hw1_Anat_Noa\\DAL\\DBservices.cs",
               "ToolTip": "C:\\Users\\anatg\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\GameSteamer\\SERVER HW_2\\hw1_Anat_Noa\\DAL\\DBservices.cs",
               "RelativeToolTip": "hw1_Anat_Noa\\DAL\\DBservices.cs",
-              "ViewState": "AgIAADwDAAAAAAAAAAAAAO0CAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAACsBAAAAAAAAAADwvzgBAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T22:14:28.483Z"
+              "WhenOpened": "2026-05-27T22:14:28.483Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -74,7 +76,8 @@
               "RelativeToolTip": "hw1_Anat_Noa\\Models\\Game.cs",
               "ViewState": "AgIAAFsAAAAAAAAAAAAkwFsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T16:21:24.97Z"
+              "WhenOpened": "2026-05-27T16:21:24.97Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -84,9 +87,10 @@
               "RelativeDocumentMoniker": "hw1_Anat_Noa\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\anatg\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\GameSteamer\\SERVER HW_2\\hw1_Anat_Noa\\Controllers\\UsersController.cs",
               "RelativeToolTip": "hw1_Anat_Noa\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAA8wCgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAmwCgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T16:21:21.141Z"
+              "WhenOpened": "2026-05-27T16:21:21.141Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -96,31 +100,33 @@
               "RelativeDocumentMoniker": "hw1_Anat_Noa\\Controllers\\GamesController.cs",
               "ToolTip": "C:\\Users\\anatg\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\GameSteamer\\SERVER HW_2\\hw1_Anat_Noa\\Controllers\\GamesController.cs",
               "RelativeToolTip": "hw1_Anat_Noa\\Controllers\\GamesController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAkwDsAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAkwEUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T16:21:17.585Z"
+              "WhenOpened": "2026-05-27T16:21:17.585Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\anatg\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\GameSteamer\\SERVER HW_2\\hw1_Anat_Noa\\Program.cs",
               "RelativeDocumentMoniker": "hw1_Anat_Noa\\Program.cs",
               "ToolTip": "C:\\Users\\anatg\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\GameSteamer\\SERVER HW_2\\hw1_Anat_Noa\\Program.cs",
               "RelativeToolTip": "hw1_Anat_Noa\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T16:21:30.346Z"
+              "WhenOpened": "2026-05-27T16:21:30.346Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\anatg\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\GameSteamer\\SERVER HW_2\\hw1_Anat_Noa\\Models\\User.cs",
               "RelativeDocumentMoniker": "hw1_Anat_Noa\\Models\\User.cs",
               "ToolTip": "C:\\Users\\anatg\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\GameSteamer\\SERVER HW_2\\hw1_Anat_Noa\\Models\\User.cs",
               "RelativeToolTip": "hw1_Anat_Noa\\Models\\User.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAuwH0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAuwHgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-27T16:21:28.295Z",
               "EditorCaption": ""

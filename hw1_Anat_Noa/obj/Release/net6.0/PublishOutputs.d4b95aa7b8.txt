@@ -1,0 +1,17 @@
+C:\Users\anatg\OneDrive\שולחן העבודה\GameSteamer\SERVER HW_2\hw1_Anat_Noa\obj\Release\net6.0\PubTmp\Out\hw1_Anat_Noa.exe
+C:\Users\anatg\OneDrive\שולחן העבודה\GameSteamer\SERVER HW_2\hw1_Anat_Noa\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\anatg\OneDrive\שולחן העבודה\GameSteamer\SERVER HW_2\hw1_Anat_Noa\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\anatg\OneDrive\שולחן העבודה\GameSteamer\SERVER HW_2\hw1_Anat_Noa\obj\Release\net6.0\PubTmp\Out\hw1_Anat_Noa.dll
+C:\Users\anatg\OneDrive\שולחן העבודה\GameSteamer\SERVER HW_2\hw1_Anat_Noa\obj\Release\net6.0\PubTmp\Out\hw1_Anat_Noa.deps.json
+C:\Users\anatg\OneDrive\שולחן העבודה\GameSteamer\SERVER HW_2\hw1_Anat_Noa\obj\Release\net6.0\PubTmp\Out\hw1_Anat_Noa.runtimeconfig.json
+C:\Users\anatg\OneDrive\שולחן העבודה\GameSteamer\SERVER HW_2\hw1_Anat_Noa\obj\Release\net6.0\PubTmp\Out\hw1_Anat_Noa.pdb
+C:\Users\anatg\OneDrive\שולחן העבודה\GameSteamer\SERVER HW_2\hw1_Anat_Noa\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\anatg\OneDrive\שולחן העבודה\GameSteamer\SERVER HW_2\hw1_Anat_Noa\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\anatg\OneDrive\שולחן העבודה\GameSteamer\SERVER HW_2\hw1_Anat_Noa\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\anatg\OneDrive\שולחן העבודה\GameSteamer\SERVER HW_2\hw1_Anat_Noa\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\anatg\OneDrive\שולחן העבודה\GameSteamer\SERVER HW_2\hw1_Anat_Noa\obj\Release\net6.0\PubTmp\Out\System.Data.SqlClient.dll
+C:\Users\anatg\OneDrive\שולחן העבודה\GameSteamer\SERVER HW_2\hw1_Anat_Noa\obj\Release\net6.0\PubTmp\Out\runtimes\win-arm64\native\sni.dll
+C:\Users\anatg\OneDrive\שולחן העבודה\GameSteamer\SERVER HW_2\hw1_Anat_Noa\obj\Release\net6.0\PubTmp\Out\runtimes\win-x64\native\sni.dll
+C:\Users\anatg\OneDrive\שולחן העבודה\GameSteamer\SERVER HW_2\hw1_Anat_Noa\obj\Release\net6.0\PubTmp\Out\runtimes\win-x86\native\sni.dll
+C:\Users\anatg\OneDrive\שולחן העבודה\GameSteamer\SERVER HW_2\hw1_Anat_Noa\obj\Release\net6.0\PubTmp\Out\runtimes\unix\lib\net6.0\System.Data.SqlClient.dll
+C:\Users\anatg\OneDrive\שולחן העבודה\GameSteamer\SERVER HW_2\hw1_Anat_Noa\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\net6.0\System.Data.SqlClient.dll
